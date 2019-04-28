@@ -1,0 +1,156 @@
+grf {
+        grfid : "BBA\01";
+        name : string(STR_GRF_NAME);
+        desc : string(STR_GRF_DESC);
+        version : 1;
+        min_compatible_version : 1;
+}
+
+town_names(prefix) {
+        {
+                text("Abbey", 10),
+                text("Agha", 10),
+                text("Anna", 10),
+                text("Ard", 10),
+                text("Ath", 10),
+                text("Augh", 10),
+                text("Bal", 10),
+                text("Ballin", 10),
+                text("Ballina", 10),
+                text("Bally", 10),
+                text("Ballymac", 10),
+                text("Ballyna", 10),
+                text("Bel", 10),
+                text("Ben", 10),
+                text("Black", 10),
+                text("Boher",10),
+                text("Bun", 10),
+                text("Caher", 10),
+                text("Carn", 10),
+                text("Carrick", 10),
+                text("Carrig", 10),
+                text("Castle", 10),
+                text("Clan", 10),
+                text("Clare", 10),
+                text("Clon", 10),
+                text("Cool", 10),
+                text("Croagh", 10),
+                text("Cross", 10),
+                text("Derry", 10),
+                text("Donagh", 10),
+                text("Down", 10),
+                text("Drum", 10),
+                text("Dun", 10),
+                text("Ennis", 10),
+                text("Fin", 10),
+                text("Gal", 10),
+                text("Glas", 10),
+                text("Glen", 10),
+                text("Gortna", 10),
+                text("Green", 10),
+                text("Inish", 10),
+                text("Innis", 10),
+                text("James", 10),
+                text("Johns", 10),
+                text("Ken", 10),
+                text("Kil", 10),
+                text("Killa", 10),
+                text("Kilmac", 10),
+                text("Kilna", 10),
+                text("Kin", 10),
+                text("Knock", 10),
+                text("Letter", 10),
+                text("Lough", 10),
+                text("Mona", 10),
+                text("Mount", 10),
+                text("Moy", 10),
+                text("Mul", 10),
+                text("Mulla", 10),
+                text("Mullina", 10),
+                text("Newtown", 10),
+                text("Pallas", 10),
+                text("Port", 10),
+                text("Rath", 10),
+                text("Ring", 10),
+                text("River", 10),
+                text("Ross", 10),
+                text("Sally", 10),
+                text("Shan", 10),
+                text("Slieve", 10),
+                text("Strath", 10),
+                text("Tagh", 10),
+                text("Temple", 10),
+                text("Termon", 10),
+                text("Tir", 10),
+                text("Tulla", 10),
+                text("Water", 10),
+                text("Wood", 10),
+        }
+}
+
+town_names(suffix) {
+        {
+                text("bane", 10),
+                text("beg", 10),
+                text("ben", 10),
+                text("boy", 10),
+                text("brack", 10),
+                text("bridge", 10),
+                text("castle", 10),
+                text("clare", 10),
+                text("cloe", 10),
+                text("connell", 10),
+                text("coole", 10),
+                text("cross", 10),
+                text("dalk", 10),
+                text("dare", 10),
+                text("down", 10),
+                text("drum", 10),
+                text("duff", 10),
+                text("fergus", 10),
+                text("fermot", 10),
+                text("field", 10),
+                text("ford", 10),
+                text("gall", 10),
+                text("griffin", 10),
+                text("glen", 10),
+                text("gorman", 10),
+                text("gory", 10),
+                text("hill", 10),
+                text("huddart", 10),
+                text("kill", 10),
+                text("killen", 10),
+                text("knock",10),
+                text("lin", 10),
+                text("michael", 10),
+                text("mullen", 10),
+                text("mun", 10),
+                text("murphy", 10),
+                text("mont", 10),
+                text("more", 10),
+                text("patrick", 10),
+                text("port", 10),
+                text("rane", 10),
+                text("ranny", 10),
+                text("rickard", 10),
+                text("rock", 10),
+                text("ross", 10),
+                text("thomas", 10),
+                text("town", 10),
+                text("tymon", 10),
+                text("veagh", 10),
+        }
+}
+                
+town_names {
+        styles : string(STR_STYLES);
+        {
+                town_names(prefix, 10)
+        }
+        {
+                town_names(suffix, 10)
+        }
+}
+                
+                
+                

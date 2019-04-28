@@ -1,0 +1,4 @@
+##grflangid 0x01
+STR_GRF_NAME    :Irish Town Names
+STR_GRF_DESC    :Randomly generated town names that sound like names of towns in Ireland.
+STR_STYLES      :Irish
